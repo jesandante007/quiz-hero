@@ -26,5 +26,7 @@
     <p><strong>localStorage:</strong> if we store data on localStorage it will not erase. </p>
     <p><strong>sessionStorage:</strong> if we store data on sessionStorage it will erase if we close the tab or browser</p>
     <p><strong>cookies:</strong> cookies usually store some data with an unique identifier or key to recognize user in the internet. There are two types of cookies 1.Magic cookies, 2.HTTP cookies. Magic cookies are an old and vulnerable according to security. Whereas HTTP cookies are more secure and updated</p>
+    <h3 class="mt">Question: What is event loop</h3>
+    <p><strong>event loop</strong> is the secret behind JavaScript asynchronous programming. It keeps an eye on stack and queue. stack executes in synchronous way and it's single threaded. whenever asynchronous behavior or method found, the call stack pass that asynchronous to web api for processing. After processing web api pass that to queue. <strong>event loop</strong> works between call stack & queue. When stack is free event loop pass the queued item to stack for execution</p>
 </body>
 </html>
